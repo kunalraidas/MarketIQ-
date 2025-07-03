@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MarketIQb Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- WebSocket Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/sockjs-client@1/dist/sockjs.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/stompjs@2.3.3/lib/stomp.min.js"></script>
+</head>
+<body>
+  <h1>📈 MarketIQb Dashboard</h1>
+
+  <div class="search-box">
+    <input type="text" id="searchInput" placeholder="Search Stock/Crypto Symbol (e.g. BTC)">
+    <button onclick="searchInstrument()">Search</button>
+  </div>
+
+  <div id="priceDisplay">Live Price: Waiting for WebSocket updates...</div>
+  <div id="searchResult"></div>
+
+  <script src="main.js"></script>
+</body>
+</html>

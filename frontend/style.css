@@ -1,0 +1,37 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f4f7fa;
+    padding: 40px;
+    color: #2c3e50;
+}
+
+h1 {
+    font-size: 28px;
+    color: #1e90ff;
+    margin-bottom: 20px;
+}
+
+.search-box {
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    width: 250px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #1e90ff;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#priceDisplay, #searchResult {
+    margin-top: 20px;
+    font-size: 18px;
+}
